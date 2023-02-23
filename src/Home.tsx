@@ -605,7 +605,7 @@ const Home = (props: HomeProps) => {
                     <p>Total items</p>
                     <p>{candyMachineV3.items.available}{" "}</p>
                   </InfoBox>
-                )} {guardStates.isStarted && wallet.publicKey && (
+                } {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
                     <p>Price</p>
                     <p>{candyPrice}</p>
