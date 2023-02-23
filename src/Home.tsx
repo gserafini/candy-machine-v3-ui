@@ -612,7 +612,7 @@ const Home = (props: HomeProps) => {
                   </InfoBox>
                 )}
                   <IconRow>
-                    {/* <a href="https://rizzible.com" target="_blank" rel="noopener noreferrer"><Globe></Globe></a> */}
+                    <a href="https://rizzibles.com" target="_blank" rel="noopener noreferrer"><Globe></Globe></a>
                     <a href="https://twitter.com/rizzibles" target="_blank" rel="noopener noreferrer"><Twitter></Twitter></a>
                     <a href="https://discord.com/invite/TF7zW5q9Ur" target="_blank" rel="noopener noreferrer"><Discord></Discord></a>
                   </IconRow>
