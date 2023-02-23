@@ -94,7 +94,7 @@ const Other = styled.div`
 const ImageWrap = styled.div`
   aspect-ratio: 1 / 1;
   width: 100%;
-  background-image: url(https://images.pexels.com/photos/2832432/pexels-photo-2832432.png);
+  background-image: url(https://img-cdn.magiceden.dev/rs:fill:200:200:0:0/plain/https://nftstorage.link/ipfs/bafybeiduvzrv2tfftjj7jdcfqanefpky6qnuv3y6k5germrnrqobvt5fx4/collection.jpg);
   border-radius: 16px;
 `
 const Image = styled.div`
@@ -598,9 +598,9 @@ const Home = (props: HomeProps) => {
             </Column>
             <Column>
               <Content>
-                <CollectionName>Collection Name</CollectionName>
+                <CollectionName>❤️ Rizzcards</CollectionName>
                 <InfoRow>
-                {guardStates.isStarted && wallet.publicKey && (
+                {guardStates.isStarted && wallet.publicKey && 
                   <InfoBox>
                     <p>Total items</p>
                     <p>{candyMachineV3.items.available}{" "}</p>
@@ -612,12 +612,12 @@ const Home = (props: HomeProps) => {
                   </InfoBox>
                 )}
                   <IconRow>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><Globe></Globe></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><Twitter></Twitter></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><Discord></Discord></a>
+                    {/* <a href="https://rizzible.com" target="_blank" rel="noopener noreferrer"><Globe></Globe></a> */}
+                    <a href="https://twitter.com/rizzibles" target="_blank" rel="noopener noreferrer"><Twitter></Twitter></a>
+                    <a href="https://discord.com/invite/TF7zW5q9Ur" target="_blank" rel="noopener noreferrer"><Discord></Discord></a>
                   </IconRow>
                 </InfoRow>
-                <CollectionDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</CollectionDescription>
+                <CollectionDescription>2,222 hand-drawn art cards from the #rizziverse for the community to give and trade. Happy Valentine's Day!</CollectionDescription>
               </Content>
               <Other>
                 {!guardStates.isStarted ? (
